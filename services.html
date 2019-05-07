@@ -8,6 +8,8 @@
     <meta name="author" contents="Ryan Dahl">
     <title>Responsive Web Design | Welcome to About</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="js/script.js"></script>
+
   </head>
   <body>
     <header>
@@ -26,7 +28,7 @@
     </header>
     <section id="newsletter">
       <div class="contain">
-        <h1>Subscribe to Our Newsletter</h1>
+        <h1>Subscribe to Our House Finder Services</h1>
         <form>
           <input type="email" placeholder="Enter Email...">
           <button type="submit" class="button_1">Subscribe</button>
@@ -58,21 +60,24 @@
 
               <aside id="sidebar">
                 <div class="dark">
-                  <h3>Get a Quote</h3>
-                  <form class="quote">
+                  <h3>Search for Houses</h3>
+                  <form name="orderform" action="" method="POST">
+                   <div>
+                      <label>Enter your annual income</label><br>
+                      <input id="income" type="text"  placeholder="Enter Income"/>
+                   </div>
+                   <div>
+                      <label>Enter the number of bedrooms</label><br>
+                      <input id="bedrooms" type="text" placeholder="Enter Bedrooms"/></div>
+
+                   <div>
+                      <label>Enter your ZIP code</label><br>
+                      <input id="zip" type="text" placeholder="Enter your ZIP code"/>
+                   </div>
                     <div>
-                      <label>Name</label><br>
-                      <input type="text" placeholder="Name">
+                     <input class="button_1" type="button" value="Calculate Price" onclick="calcPrice();" />
                     </div>
-                    <div>
-                      <label>Email</label><br>
-                      <input type="text" placeholder="Email address">
-                    </div>
-                    <div>
-                      <label>Message</label><br>
-                      <textarea placeholder="Message" ></textarea>
-                    </div>
-                  <button class="button_1" type="submit">Send</button>
+                     <input class="button_1" type="button" value="Shop for Houses" onclick="findHouses(this.form);"/>
                   </form>
                 </div>
               </aside>
