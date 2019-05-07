@@ -29,13 +29,16 @@ ul{
 }
 
 /*Global button style*/
-.button_1{
+.button_1 {
   height: 38px;
   background: #e8491d;
   border: none;
   padding-left: 20px;
   padding-right: 20px;
   color: #ffffff;
+  font-weight: bold;
+
+
 }
 header{
   background: #35424a;
@@ -75,6 +78,10 @@ header .highlight , header .current a{
 }
 
 header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+aside#sidebar a:hover{
   color: #cccccc;
   font-weight: bold;
 }
@@ -142,7 +149,7 @@ aside#sidebar{
 aside#sidebar input, aside#sidebar textarea{
   width: 90%;
   padding: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 }
 aside#sidebar #calp{
   margin-bottom: 5px;
