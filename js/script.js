@@ -1,7 +1,7 @@
-function validateNumber(value) {
+function validateName(value) {
 // Validate the number
-// if (!isNumber(value))
-alert("Please enter a number.");
+if (isNumber(value))
+alert("Please enter the Name");
 }
 function validateZIPCode(value) {
 // Validate the ZIP code
@@ -17,4 +17,5 @@ var bedrooms = document.getElementById("bedrooms").value;
 var zipCode = document.getElementById("zip").value;
 // Display a list of matching houses from the server
 form.submit();
+
 }

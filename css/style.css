@@ -45,7 +45,7 @@ header{
   color: #ffffff;
   padding-top: 30px;
   min-height: 70px;
-  border-bottom: #e8491d 3px solid;
+  border-bottom: #1fb8e2 5px solid;
 }
 
 header a{
@@ -73,7 +73,7 @@ header nav{
 }
 
 header .highlight , header .current a{
-  color: #e8491d;
+  color: #1fb8e2;
   font-weight: bold;
 }
 
@@ -84,6 +84,16 @@ header a:hover{
 aside#sidebar a:hover{
   color: #cccccc;
   font-weight: bold;
+}
+footer{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  position :fixed;
+  color: #ffffff;
+  background-color: #35424a;
+  text-align: center;
+  border-top: #1fb8e2 5px solid;
 }
 
 /*showcase*/
@@ -166,17 +176,10 @@ ul#services li
   margin-top: 10px;
   margin-bottom: 10px;
   background: #e6e6e6;
-  border:#cccccc; solid 1px;
 
 }
 
-footer{
-  padding: 20px;
-  margin-top: 20px;
-  color: #ffffff;
-  background-color: #ed491d;
-  text-align: center;
-}
+
 
 
 /*media query*/

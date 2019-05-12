@@ -77,15 +77,15 @@
                     <div id="a">
                      <input class="button_1" type="button" value="Calculate Price" onclick="calcPrice();" />
                     </div >
-                     <input class="button_1" type="button" value="Shop for Houses" onclick="findHouses(this.form);"/>
+                    <input class="button_1" type="button" value="Shop for Houses" onclick="findHouses(this.form);"/>
                   </form>
                 </div>
               <div class="dark">
                    <h3>Enroll for Recommendation Service</h3>
-                   <form class="quote">
+                   <form>
                      <div>
                        <label>Name</label><br>
-                       <input type="text" placeholder="Name">
+                       <input id="name" type="text" placeholder="Name" onblur="validateName(this.value);"/>
                      </div>
                      <div>
                        <label>Email</label><br>
