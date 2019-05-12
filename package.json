@@ -1,0 +1,24 @@
+{
+  "name": "responsiveweb",
+  "version": "1.0.0",
+  "description": "To build a simple responsive website using html css and javascript. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaminGit/shaminali14gmailcom-responsiveweb.git"
+  },
+  "keywords": [
+    "HTML5",
+    "CSS3",
+    "JAVASCRIPT"
+  ],
+  "author": "Shamin Ali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shaminGit/shaminali14gmailcom-responsiveweb/issues"
+  },
+  "homepage": "https://github.com/shaminGit/shaminali14gmailcom-responsiveweb#readme"
+}
