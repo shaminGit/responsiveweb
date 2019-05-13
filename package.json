@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "To build a simple responsive website using html css and javascript. ",
   "main": "index.js",
+   "engines": {
+    "node": "10.12.0"
+  }
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
